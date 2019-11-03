@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geheimzahl raten</title>
+    
+
+    </head>
+
+    <body>
+        <h1 id="h1">Errate die Geheimzahl</h1>
+        <style>
+        body{
+        background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);}
+        #h1{
+        width: 90%;
+        border-style: solid;
+        border-radius: 20px;
+        box-shadow: 20px 20px 20px;
+        font-family: fantasy;
+        font-size: 80px;
+        color: blue;
+        text-align: center;
+        padding: 50px;
+        margin: 30px;}
+        #div1{
+        width: 90%;
+        text-align:center;
+        border-style: solid;
+        border-radius: 20px;
+        box-shadow: 20px 20px 20px; 
+        color: rgb(14, 39, 105);
+        padding: 50px;
+        margin: 30px;}
+        
+        #h3{
+        color: darkblue;
+        font-family: Arial;
+        text-align:center;
+        }
+        
+        </style>
+        <br>
+        <br>
+        <br>
+        <div id="div1">
+        <h3 id="h3">Bitte Geheimzahl eingeben und Butto drücken</h3>
+        <br>
+        <input type="value" name="Zahl eingeben" id="eingabe">
+        <br>
+        <br>
+        <button onclick="vergleicheZahl()">Drücken</button>
+        <script src="geheimzahl.js"></script>
+        </div>
+        
+      
+    </body>
+
+</html>
