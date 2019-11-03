@@ -1,0 +1,16 @@
+let secret;
+let obereGrenze = 100;
+
+secret = Math.random()*obereGrenze;
+secret = Math.round(ausgedachteZahl+0.5);
+
+function vergleicheZahl() {
+    let eingabe = document.getElementById("eingabe").value;
+    if (secret > eingabe) {
+        alert("Schade, leider falsche Geheimzahl, die geratene Zahl ist zu klein");}
+    if (secret < eingabe) {
+        alert("Schade, leider falsche Geheimzahl, die geratene Zahl ist zu groß");}
+    if (secret === eingabe) {
+        alert("Super, richtig geraten - Glueckwunsch");}
+    
+}
