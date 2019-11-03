@@ -1,0 +1,5 @@
+function umrechnen() {
+    let eingabe = document.getElementById("eingabe").value;
+    let ausgabe = eingabe * 0.621;
+    alert(eingabe+" Kilometer sind umgerechnet: "+ausgabe+" in Meilen")
+    }
