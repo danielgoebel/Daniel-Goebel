@@ -1,0 +1,28 @@
+function addieren() {
+let x = document.getElementById("eingabe1").value;
+let y = document.getElementById("eingabe2").value;
+let z = parseInt(x)+parseInt(y);
+let ausgabe = document.getElementById("ergebnis");
+ausgabe.textContent="Das Ergebnis lautet: "+z;
+}
+function subtrahieren() {
+    let x = document.getElementById("eingabe1").value;
+    let y = document.getElementById("eingabe2").value;
+    let z = parseInt(x)-parseInt(y);
+    let ausgabe = document.getElementById("ergebnis");
+    ausgabe.textContent="Das Ergebnis lautet: "+z;
+    }
+function multiplizieren() {
+    let x = document.getElementById("eingabe1").value;
+    let y = document.getElementById("eingabe2").value;
+    let z = parseInt(x)*parseInt(y);
+    let ausgabe = document.getElementById("ergebnis");
+    ausgabe.textContent="Das Ergebnis lautet: "+z;
+    }
+function dividieren() {
+    let x = document.getElementById("eingabe1").value;
+    let y = document.getElementById("eingabe2").value;
+    let z = parseInt(x)/parseInt(y);
+    let ausgabe = document.getElementById("ergebnis");
+    ausgabe.textContent="Das Ergebnis lautet: "+z;
+    }
