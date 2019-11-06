@@ -1,0 +1,62 @@
+h1{
+    width: 90%;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px;
+    font-family: fantasy;
+    font-size: 80px;
+    color: blue;
+    text-align: center;
+    padding: 50px;
+    margin: 30px;}
+
+body{background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);}
+
+#div1{
+    width: 90%;
+    background-color: aquamarine;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align:center;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px; 
+    color: rgb(152, 170, 218);
+    padding: 20px;
+    margin: 20px;}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px;
+    background-color: rgb(66, 66, 223);
+    color: beige;
+    font-size: 40px;
+    font-family: fantasy;}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px;
+    color: rgb(32, 32, 128);
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+#ergebnis {
+    
+    border-radius: 10px;
+   
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+    
