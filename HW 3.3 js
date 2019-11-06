@@ -1,0 +1,15 @@
+function numbers() {
+    let anzahl = document.getElementById("anzahl").value);
+    let untergrenze = document.getElementById("untergrenze").value);
+    let obergrenze = document.getElementById("obergrenze").value);
+    let liste = [];
+    for (i=0; liste.length < anzahl; i++) {
+        let zahl = Math.floor(Math.random()*(obergrenze-untergrenze+1))+untergrenze;
+        liste.push(zahl);
+
+    }
+    
+    let ausgabe = document.getElementById("ausgabe");
+    ausgabe.textContent = "Die Lotteriezahlen lauten: "+liste;
+
+}
