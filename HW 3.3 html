@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <title>Lotterie</title>
+    </head>
+    <body>
+        <h1>Dein Lotteriespiel</h1>
+        <br>
+        
+        <div id="div1">
+        <p id="hello">Hallo, hier kannst Du Dein Lotteriespiel starten:</p>
+        <p>Wie viele Lotterienummern soll der Computer ausgeben?</p>
+        <input type="value" name="Zahl eingeben" placeholder="Anzahl Nummern eingeben" id="anzahl">
+        <p>Aus welchem Zahlenbereich sollen die Lotterienummern sein?</p>
+        <input type="value" name="Zahl eingeben" placeholder="Untergrenze eingeben" id="untergrenze">
+        <input type="value" name="Zahl eingeben" placeholder="Obergrenze eingeben" id="obergrenze">
+        <br>
+        <br>
+        <button id="numbers" onclick="numbers()">Lotterie starten</button>
+        <br>
+        <br>
+        <output id="ausgabe"></output>      
+        <script src ="lotterie.js"></script>
+        </div>
+
+    </body>
+</html>
